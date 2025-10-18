@@ -1,0 +1,12 @@
+/* Import custom stylesheets */
+@import './styles/globals.css';
+@import './styles/components.css';
+
+/* Portfolio-specific overrides and utilities */
+.section-title {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--spacing-12);
+  color: var(--color-dark);
+}
