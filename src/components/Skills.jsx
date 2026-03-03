@@ -4,7 +4,7 @@ const Skills = () => {
   const techStack = [
     "React", "Node.js", "JavaScript", "TypeScript", "Python", "Java",
     "MongoDB", "PostgreSQL", "Express.js", "CSS", "Git",
-    "AWS"
+    "AWS", "Docker"
   ];
 
   return (
@@ -23,14 +23,7 @@ const Skills = () => {
           </div>
         </div>
         
-        <div className="learning-section">
-          <h3 className="learning-title">Currently Learning</h3>
-          <div className="learning-grid">
-            {["Machine Learning", "DevOps"].map((item, index) => (
-              <span key={index} className="learning-tag">{item}</span>
-            ))}
-          </div>
-        </div>
+        
       </div>
     </section>
   );

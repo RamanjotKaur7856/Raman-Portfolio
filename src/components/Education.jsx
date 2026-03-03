@@ -13,7 +13,7 @@ const Education = () => (
           <p className="education-duration">2023 – 2027</p>
           <p className="education-details">
             Relevant Coursework: Data Structures, Algorithms, Web Development, Cloud Computing, etc.<br></br>
-            Current CGPA: 9.32
+            Current CGPA: 9.26
           </p>
         </div>
         {/* 12th */}

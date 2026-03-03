@@ -1,36 +1,50 @@
 import { ExternalLink, Github } from 'lucide-react';
-import project1Image from '../assets/project1Image.jpg';
-import project2Image from '../assets/project2Image.jpg';
-import project3Image from '../assets/project3Image.jpg';
+import project1Image from '../assets/project1Image.png';
+import project2Image from '../assets/project2Image.png';
+import project3Image from '../assets/project3Image.png';
+import project4Image from '../assets/project4Image.png'; 
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Clothify-Ecommerce Website",
-      description: "A responsive clothing website featuring dedicated sections for women, men, and kids. It offers an interactive shopping experience with product listings, images, prices, and a user-friendly cart across all devices.",
+      title: "Edemy – Student Learning Platform",
+      description:
+        "Built a secure and scalable backend system using Node.js and Express. Designed RESTful APIs for users, courses, enrollments, and quizzes. Implemented real-time quiz functionality using WebSockets and deployed using Docker with MongoDB Atlas integration.",
       image: project1Image,
-      technologies: ["React", "Node.js", "CSS", "Bootstrap"],
-      githubUrl: "https://github.com/RamanjotKaur7856/Clothify",
-      liveUrl: "https://clothify-app.vercel.app/"
+      technologies: ["Node.js", "Express.js", "MongoDB", "WebSockets", "Docker"],
+      githubUrl: "https://github.com/RamanjotKaur7856/Edemy-LearningPlatform",
+      liveUrl: "#"
     },
     {
       id: 2,
-      title: "College Event Management System",
-      description: "A full-stack web application built to manage college events efficiently. It features event CRUD operations, participant registration, authentication with JWT, and admin controls for organizers.",
+      title: "Finance Management System",
+      description:
+        "Developed a web-based finance management system using Java and Spring Boot with microservices architecture. Designed RESTful APIs for income/expense tracking and integrated MySQL using JPA/Hibernate with Apache Tomcat deployment.",
       image: project2Image,
-      technologies: ["React","Express.js","CSS","MongoDB"],
-      githubUrl: "https://github.com/RamanjotKaur7856/CEMS",
-      liveUrl: "https://example.com"
+      technologies: ["Java", "Spring Boot", "MySQL", "JPA/Hibernate", "Microservices"],
+      githubUrl: "https://github.com/RamanjotKaur7856/Finance-Management-System",
+      liveUrl: "#"
     },
     {
       id: 3,
       title: "Blog Management System",
-      description: "A full-stack web application for creating, editing, and managing blog posts with CRUD functionality. Built using Node.js, Express, and EJS, it allows users to add, update, and delete posts stored in a JSON file or database. The system supports dynamic routing, user-friendly interfaces, and efficient content management.",
+      description:
+        "Created a full-stack blog application using Node.js, Express, EJS, and MongoDB. Implemented complete CRUD functionality, RESTful routing, and dynamic content management.",
       image: project3Image,
-      technologies: ["Node.js", "Express.js", "EJS", "CSS","MongoDB"],
+      technologies: ["Node.js", "Express.js", "EJS", "MongoDB"],
       githubUrl: "https://github.com/RamanjotKaur7856/Blog-Management",
-      liveUrl: "https://example.com"
+      liveUrl: "#"
+    },
+    {
+      id: 4,
+      title: "College Event Management System",
+      description:
+        "Built a Java console application using Object-Oriented Programming principles. Implemented event creation, participant management, and reporting modules using efficient data structures.",
+      image: project4Image,
+      technologies: ["Java", "OOP", "Data Structures"],
+      githubUrl: "https://github.com/RamanjotKaur7856/College-Event-Management-System",
+      liveUrl: "#"
     }
   ];
 
@@ -84,9 +98,9 @@ const Projects = () => {
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-action-link btn btn-outline">
                     Code
                   </a>
-                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-action-link btn btn-primary">
+                  {/* <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-action-link btn btn-primary">
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
